@@ -1,0 +1,44 @@
+Gold Team
+ - Matthew Carroll
+ - Jeffrey Delucia
+ - David Jordan
+ 
+ 
+Feature: Request geolocated tweets of mobile user to web application using
+	their submitted filters and preferences. Filters include at least two
+	hash tags, date range of tweets, mile radius from user, and highest/lowest
+	sentiment scoring tweets of the 100 results returned by the twitter API.
+	
+	Scenario: Return search results
+		Given all the entered filters are valid
+		When the user presses the search button
+		Then record the entered hashtags for the application
+		And display info for the 100 tweets, that follow the entered filters,
+			returned by the twitter API. This info includes the username,
+			avatar, text contents, sentiment score, and hastags for each tweet.
+	
+	Scenario: Invalid filters
+		Given one or more of the entered filters are invalid
+		When the user presses the search button
+		Then don't process search results
+		And display a message pertaining to what was invalid
+	
+	Scenario: Invalid hashtag
+		Given one or more of the two hashtags entered is empty or invalid
+		When the user presses the search button
+		Then display a message saying that you must enter valid hashtags
+	
+	Scenario: Invalid mile radius
+		Given the entered mile radius is empty, NaN, or negative
+		When the user presses the search button
+		Then display a message saying you must enter a positive number for
+			the mile radius
+		
+	Scenario: Invalid highest/lowest sentiment scores
+		Given the lowest and/or highest sentiment score value entered is
+			empty or NaN
+		When the user presses the search button
+		Then display a message saying you must enter a number for both the
+			lowest and highest sentiment score values
+
+			
