@@ -1,0 +1,12 @@
+#Types of Questions to answer
+
+##Who is the target audience for our application?
+Teenagers, young adults and college students especially attuned with the social functions and viability of twitter. 
+##What does our application do????
+Request geolocated tweets of various mobile users ultilizing various filters and preferences, including hash tags and date range of tweets. When the results of a search on the tweet are found, the details of the tweet will be displated to end user, and the top 10 global searches  will be displayed.
+##How does our application do it?
+Using javascript, the program will extract and format display data and information pertaining to sites that incorporate similar functionality, such as twitter and google maps.
+##When will this application be available?
+The application will be availiable on the web on Dec 1 2013 and shown Dec 5 2013.
+##Where can this application be accessed from? (URL)
+https://github.com/ChaosDeepThought/CSI120ClassProjectGeoTweet
