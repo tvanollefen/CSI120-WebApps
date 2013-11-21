@@ -1,0 +1,9 @@
+This application is aimed towards Champlain College students 
+or anyone who uses twiiter in general. Our application is designed to 
+take two hashtags and list out multiple results based on those two 
+hashtags based on hashtags entered, date they were posted, and a 
+mile radius around the users location using the twitter API. It also 
+will be able to compare the sentiment score of the returned posts with 
+that of the same hashtags on different days with different weather 
+conditions using a weather API on github. The application should be 
+available by Teusday November 3rd at http://hadzz.com:5000/.
