@@ -1,0 +1,12 @@
+#Types of Questions to answer
+
+##Who is the target audience for our application?
+The target audience for this app would be twitter and Instagram users looking to find similar posts in both sites at the same time.
+##What does our application do?
+This application is meant to pull in top twitter and Instagram posts compare happiness levels and produce in order from happiest to least happy or vice versa as well as showing which one has an overall higher happiness level.
+##How does our application do it?
+We do this by pulling in both twitter and Instagram API and running it through the sentimental value processer and then using ejs to produce the values on the screen
+##When will this application be available?
+Hopefully this application will be running by December 2nd… However, there have been a plethora of scheduling conflicts and general problems when trying to work so… Yeah…
+##Where can this application be accessed from? (URL)
+This will be accessible from Heroku.  I’m not sure what exactly the URL is because we have yet to get a version that is even close to deployable or even discuss the name of the website.  I’m just going to make an executive decision and say it will be at ‘nigma.heroku.com’. 
