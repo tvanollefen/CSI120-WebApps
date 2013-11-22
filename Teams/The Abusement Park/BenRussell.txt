@@ -1,0 +1,19 @@
+Ben Russell
+
+Who is the target audience for our application?
+	Mainly younger people interested in twitter and online image sharing.
+
+What does our application do????
+	It first takes two hashtags from the user and finds local tweets that match. Then they
+are given sentimental ratings. 5 along that range are chosen and displayed. Beside each tweet will
+be a random picture from Flickr that also matches those hashtags.
+
+How does our application do it?
+	The files are stored on github, processed on cloud9, and deployed to Heroku. Twitter API asks
+and pulls tweets from Twitter, and a Flickr API will pull the pictures.
+
+When will this application be available?
+	Around November 25th.
+
+Where can this application be accessed from? (URL)
+	NOWHERE.
