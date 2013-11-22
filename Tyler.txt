@@ -1,0 +1,18 @@
+#Types of Questions to answer
+
+##Who is the target audience for our application?
+
+The target audience is just about anybody, so there is no real target audience aside from Twitter users.  Grandma probably will not be using it at least.  Unless she wants pictures of a certain recipe.
+
+##What does our application do????
+
+Our application will ask the user for their location as well as two tweets to search on Twitter.  It will then attempt to find tweets within the target area using both of the hashtags.  It will sort these tweets based on the sentimental module.  It will also search the image site flickr in an attempt to find pictures that will also match the users inputs.  It will pair one tweet with one image, starting with the highest and working to the lowest.  The images will be sorted by relevance.  There will be 5 matches total, when possible.
+
+##How does our application do it?
+It will use the twitter API to search with the location feature as well as the hashtag search feature in order to find the hashtags.  It will have an accuracy setting. It will then use the flickr API to search images which will also use the keywords provided.  It will sort them by relevance with the search feature of the API.  They will be paired and displayed.
+
+##When will this application be available?
+Coming soon! In a future near you!
+
+##Where can this application be accessed from? (URL)
+http://Boo.li/whaat%20?/
