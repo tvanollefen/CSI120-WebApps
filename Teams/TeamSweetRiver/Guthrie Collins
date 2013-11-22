@@ -8,9 +8,10 @@
 ###It then determines each tweet's sentimental value.
 
 ##How does our application do it?
-###It uses a Sentimental API and a Twitter API
+###It uses a Sentimental API and a Twitter API.
 
 ##When will this application be available?
-###
+###By December 1st
 
 ##Where can this application be accessed from? (URL)
+###http://sweetRiverApp.herokuapp.com/
